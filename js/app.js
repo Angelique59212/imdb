@@ -1,3 +1,4 @@
+//search
 $(document).ready(function(e){
     $('.search-panel .dropdown-menu').find('a').click(function(e) {
         e.preventDefault();
@@ -8,6 +9,7 @@ $(document).ready(function(e){
     });
 });
 
+//first carousel
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -21,3 +23,15 @@ let swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// create img
+let target = document.querySelector('.swiper-wrapper');
+for(let i = 0 ; i < arrMovies.length ; i++){
+    let div = document.createElement('div');
+    div.className = "swiper-slide";
+    let img = document.createElement('img');
+    img.src = arrMovies[i][0];
+    img.alt = arrMovies[i][2];
+    div.appendChild(img);
+    target.appendChild(div);
+}
