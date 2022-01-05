@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 40px;
+    height: 60px;
     display: flex;
     background-color: #121212;
     justify-content: space-around;
