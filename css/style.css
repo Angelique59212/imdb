@@ -16,17 +16,19 @@ body {
 }
 
 header {
+    height: 40px;
     display: flex;
-    background-color: black;
-    justify-content: space-between;
+    background-color: #121212;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search {
+    width: 60%;
 }
 
 #menu, #imdbPro, #watchlist, #sign {
     color: white;
-}
-
-#search {
-    width: 70%;
 }
 
 #imdb {
@@ -36,7 +38,7 @@ header {
 
 .hover:hover {
     cursor: pointer;
-    /*transform: scale(1.5);*/
+    transform: scale(1.5);
 }
 
 
