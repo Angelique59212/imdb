@@ -25,13 +25,8 @@ let arrMovies = [
         '"Peaky Blinders" Season 6'
     ],
     [
-        'imgMovies/uncharted02.jpg',
-        'imgMovies/uncharted.jpg',
-        'Mark Walhberg & Tom Holland Go Treasure Hunting'
-    ],
-    [
-        'imgMovies/witcher.jpg',
         'imgMovies/witcher02.jpg',
+        'imgMovies/witcher.jpg',
         '"The Witcher" Stars Debate the Scariest Monster in Season 2'
     ]
 ]
