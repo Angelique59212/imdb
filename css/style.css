@@ -6,14 +6,37 @@
 
 html {
     font-size: 62.5%;
+    background-color: black;
+    font-family: sans-serif;
+
+}
+
+body {
+    margin-top: 20px;
 }
 
 header {
     display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#menu, #imdbPro, #watchlist, #sign {
+    color: white;
+}
+
+#search {
+    width: 70%;
 }
 
 #imdb {
     width: 64px;
     height: 32px;
 }
+
+.hover:hover {
+    cursor: pointer;
+    /*transform: scale(1.5);*/
+}
+
 
