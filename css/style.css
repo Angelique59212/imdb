@@ -6,13 +6,13 @@
 
 html {
     font-size: 62.5%;
-    background-color: black;
     font-family: sans-serif;
 
 }
 
 body {
     margin-top: 20px;
+    background-color: black;
 }
 
 header {
@@ -41,18 +41,19 @@ header {
     transform: scale(1.5);
 }
 
-main {
+#first, #second {
     display: flex;
-    background-color: black;
     padding: 2rem;
 }
+/* Swipers */
 
-.swiper {
+/* Swiper 1 */
+.s1 .swiper {
     width: 100%;
     height: 100%;
 }
 
-.swiper-slide {
+.s1 .swiper-slide {
     text-align: center;
     font-size: 18px;
     display: -webkit-box;
@@ -69,14 +70,57 @@ main {
     align-items: center;
 }
 
-.swiper-slide img {
+.s1 .swiper-slide img {
     display: block;
     object-fit: cover;
 }
 
-.swiper {
-    margin-left: auto;
-    margin-right: auto;
+.s1 .divBottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.s1 .swiper-slide a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* Swiper 2 */
+
+.s2 .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.s2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.s2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 aside {
@@ -84,7 +128,6 @@ aside {
 }
 
 #socialNetworks {
-    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -100,7 +143,6 @@ aside {
 .condition {
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -111,7 +153,6 @@ aside {
 }
 
 #amazon {
-    background-color: black;
     color: white;
     text-align: center;
     font-size: 2rem;
@@ -123,7 +164,10 @@ aside {
 }
 
 #copyright {
-    background-color: black;
     color: white;
     text-align: center;
 }
+
+
+
+
