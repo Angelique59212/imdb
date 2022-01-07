@@ -30,3 +30,39 @@ let arrMovies = [
         '"The Witcher" Stars Debate the Scariest Monster in Season 2'
     ]
 ]
+
+/* featured today */
+let arr_sec = [
+    [
+        'img/img-sec-carousel/blond.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/grogu.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/head.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/kazam.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/matrix.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/memo.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/pam.jpg',
+        'text'
+    ],
+    [
+        'img/img-sec-carousel/red.jpg',
+        'text'
+    ],
+]
