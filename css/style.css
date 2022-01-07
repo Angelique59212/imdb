@@ -124,6 +124,27 @@ header {
     height: 100%;
 }
 
+/* Swiper3 */
+
+.s3 {
+    width: 60%;
+    margin: 2rem;
+}
+
+.s3 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+.s3 .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
 aside {
     width: 40%;
 }
