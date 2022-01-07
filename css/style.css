@@ -27,7 +27,7 @@ header {
     width: 60%;
 }
 
-#menu, #imdbPro, #watchlist, #sign {
+#menu, #imdbPro, #watchlist, .sign {
     color: white;
 }
 
@@ -48,7 +48,7 @@ header {
 /* Swipers */
 
 /* Swiper 1 */
-.s1 .swiper {
+#first .swiper {
     width: 100%;
     height: 100%;
 }
@@ -56,18 +56,6 @@ header {
 .s1 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
 }
 
 .s1 .swiper-slide img {
@@ -93,40 +81,54 @@ header {
 
 /* Swiper 2 */
 
-.s2 .swiper {
-    width: 100%;
-    height: 100%;
+.title_carousel {
+    margin: 2rem;
+    font-size: 3rem;
+    color: yellow;
+}
+
+#watch {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 1rem;
+}
+
+#picks {
+    border-left: 3px solid yellow;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#comm , #sign {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.s2 {
+    width: 60%;
+    margin: 2rem;
 }
 
 .s2 .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+
 }
 
 .s2 .swiper-slide img {
-    display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 aside {
     width: 40%;
 }
 
+/* footer */
 #socialNetworks {
     color: white;
     display: flex;

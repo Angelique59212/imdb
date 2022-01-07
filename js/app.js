@@ -62,10 +62,11 @@ const swiper1 = new Swiper(".s1", {
     },
 });
 
+//second carousel
 const swiper2 = new Swiper(".s2", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
-    slidesPerGroup: 3,
+    slidesPerGroup: 2,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -77,4 +78,15 @@ const swiper2 = new Swiper(".s2", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+let elem = document.querySelector('.s2 .swiper-wrapper');
+for(let i = 0 ; i < arr_sec.length ; i++){
+    console.log('ici');
+    let div = document.createElement('div');
+    let img = document.createElement('img');
+    div.className = "swiper-slide";
+    img.src = arr_sec[i][0];
+    div.appendChild(img);
+    elem.appendChild(div);
+}
 
