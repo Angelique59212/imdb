@@ -62,6 +62,11 @@ const swiper1 = new Swiper(".s1", {
     },
 });
 
+// trigger click on swiper button next
+setInterval(function (){
+    $(".s1 .swiper-button-next").click();
+}, 6000);
+
 //second carousel
 const swiper2 = new Swiper(".s2", {
     slidesPerView: 2,
