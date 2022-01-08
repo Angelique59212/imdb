@@ -94,7 +94,7 @@ header {
     padding-right: 1rem;
 }
 
-#picks {
+#picks , #favourites, #originals {
     border-left: 3px solid yellow;
     margin: 2rem;
     padding: 1rem;
@@ -103,7 +103,7 @@ header {
     font-size: 2rem;
 }
 
-#comm , #sign {
+.comm , #sign {
     margin: 2rem;
     font-size: 2rem;
 }
@@ -147,6 +147,42 @@ header {
 
 aside {
     width: 40%;
+}
+
+/* Swiper fan favourites */
+
+.s4 {
+    width: 100%;
+    height: 100%;
+}
+
+.s4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.s4 .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Swiper exclusive videos */
+.s5 {
+    width: 60%;
+    height: 100%;
+}
+
+.s5 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /*width: 100px;*/
+    /*height: 300px;*/
+}
+
+.s5 .swiper-slide img {
+    display: block;
+    width: 100%;
 }
 
 /* footer */

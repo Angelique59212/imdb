@@ -91,7 +91,7 @@ for(let i = 0 ; i < arr_sec.length ; i++){
 }
 
 //third carousel
-let swiper3 = new Swiper(".s3", {
+const swiper3 = new Swiper(".s3", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -108,3 +108,26 @@ let swiper3 = new Swiper(".s3", {
     },
 });
 
+// favourites carousel
+const swiper4 = new Swiper(".s4", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+// exclusive videos
+const swiper5 = new Swiper(".s5", {
+    spaceBetween: 30,
+    effect: "fade",
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
