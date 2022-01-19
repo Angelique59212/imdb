@@ -136,3 +136,13 @@ const swiper5 = new Swiper(".s5", {
         clickable: true,
     },
 });
+
+// explore what's stream
+const swiper6 = new Swiper(".s6", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
